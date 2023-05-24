@@ -1,0 +1,9 @@
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.csproj.AssemblyReference.cache
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.Form1.resources
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.Properties.Resources.resources
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.csproj.GenerateResource.cache
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.csproj.CoreCompileInputs.cache
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\bin\Debug\VISsessionControl.exe
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\bin\Debug\VISsessionControl.pdb
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.exe
+C:\Users\ymercan\kordsa\VISsessionControl\VISsessionControl\obj\Debug\VISsessionControl.pdb
