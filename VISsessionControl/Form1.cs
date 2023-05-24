@@ -23,19 +23,9 @@ namespace VISsessionControl
         private void Form1_Load(object sender, EventArgs e)
         {
             this.ControlBox = false;
-            //foreach (var item in Process.GetProcesses())
-            //{
-            //    listBox1.Items.Add(item.ProcessName.ToString());
-            //}
             GlobalTimer.Enabled = true;
             GlobalTimer.Interval = 1800000;
             GlobalTimer.Start();
-
-
-            //System.Diagnostics.Process.Start("shutdown", "-s -f -t 0"); // bilgisayarı kapatma komutu 
-            //System.Diagnostics.Process.Start("shutdown", "-l -f"); //oturumu kapatma kodları
-            //System.Diagnostics.Process.Start("shutdown", "-r -f -t 0"); //bilgisayarı yeniden başlatmak için
-            //System.Diagnostics.Process.Start("shutdown", "-h -f"); // bilgisayarı hazırda beklet 
         }
 
         private void GlobalTimer_Tick(object sender, EventArgs e)
@@ -56,25 +46,6 @@ namespace VISsessionControl
             LocalTimer.Enabled = false;
             LocalTimer.Stop();
         }
-
-        //private void button1_Click(object sender, EventArgs e)
-        //{
-        //    Process[] aas = Process.GetProcessesByName("TeamViewer");
-        //    foreach (var proc in aas)
-        //    {
-        //        proc.Kill();
-        //    }
-        //    LocalTimer.Enabled = true;
-        //    LocalTimer.Interval = 3000;
-        //    LocalTimer.Start();
-
-        //}
-
-        //private void button2_Click(object sender, EventArgs e)
-        //{
-        //    Process.Start(@"C:\Program Files (x86)\TeamViewer\TeamViewer.exe");
-        //}
-
         void MyIcon_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             Show();
